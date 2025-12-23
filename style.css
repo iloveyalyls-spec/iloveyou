@@ -1,4 +1,4 @@
-body{background-color: cadetblue;}
+
 h1{
     margin: 20px auto; text-align: center; width:720px;
 }
@@ -6,7 +6,7 @@ h1{
     width: 720px;
     margin: 0px auto;
     border: 1px solid black;
-    height: 960px;
+    height: 720px;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -14,15 +14,9 @@ h1{
     padding: 10px;
 
 }
-p{
-    width: 720px;
-    margin: 0px auto;
-    font-weight: lighter;
-    text-align: center;
-    display: flex;
-}
+
 img{
-    height: 480px;
+    height: 720px;
     display: flex;
     border: 5px solid black;
     border-radius: 15px;
@@ -38,5 +32,9 @@ img{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    width: 1920px;
+    height: 1080px;
+    transform-origin: top left;
+    transform: scale(var(--scale));
 
 }
