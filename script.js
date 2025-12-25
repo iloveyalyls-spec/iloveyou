@@ -11,4 +11,3 @@ function updateScale() {
 
 window.addEventListener('resize', updateScale);
 updateScale();
-
